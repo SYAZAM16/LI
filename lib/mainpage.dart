@@ -1,5 +1,5 @@
 import 'package:derma_masjid/home_page.dart';
-import 'package:derma_masjid/home_page2.dart';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:derma_masjid/Aktiviti.dart';
@@ -13,7 +13,7 @@ class mainpage extends StatefulWidget {
 }
 
 class _mainpageState extends State<mainpage> {
-  List pages = [Contact(), HomePage2(), Aktiviti()];
+  List pages = [Contact(), HomePage(), Aktiviti()];
 
   int currentIndex = 1;
 
